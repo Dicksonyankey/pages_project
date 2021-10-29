@@ -1,0 +1,21 @@
+{% extends 'pages/base.html'%}
+{% load static%}
+
+
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'pages/styles/about.css' %}">
+
+        <title>website</title>
+    </head>
+    <body>
+        {% block content%}
+
+            <h1>About Page</h1>
+            <h3>This is the about page !</h3>
+
+        {% endblock content%}
+    </body>
+</html>
+
+

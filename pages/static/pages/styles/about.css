@@ -1,0 +1,13 @@
+body{
+    background-color: cornsilk;
+    margin: 40px;
+    align-content: center;
+}
+
+h1, h3{
+    color: blue;
+    font-family:'Times New Roman', Times, serif;
+    font-size:medium;
+    text-align: center;
+
+}
